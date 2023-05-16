@@ -36,8 +36,8 @@
 			flex-wrap: wrap;
 			justify-content: center;
 			margin: 40px auto;
-			max-width: 310px;
-			padding: 20px;
+			max-width: 233px;
+			padding: 3px;
 			background-color: #fff;
 			border-radius: 10px;
 			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -124,11 +124,16 @@
     </header>
     <main>
       <form action="https://gtsboyacared.alertran.net/gts/pub/locNumSeguimiento.seam" target="_blank">
-        <label for="tracking-number">Número de Expedición:</label>
+        <label for="tracking-number"></label>
         <input type="hidden" name="web" value="S" />
-			  <input type="text" name="localizador" placeholder="9999XXXXXXXX" />
+		<input type="text" name="localizador" placeholder="Número de Expedición:" style="width: 100px;">	 
 			  <button type="submit">Buscar</button>
 
+	      	
+	
+	      
+	      
+	      
       </form>
     
     </main>
